@@ -130,5 +130,27 @@ namespace RecommendationMicroservice.Models
             return true;
         }
 
+        public int DiCtionarySorting(Video vid, List<Video> stream)
+        {
+            var dict = new Dictionary<int, List<Video>>
+            {
+                [1] = new List<Video>(),
+                [2] = new List<Video>(),
+                [3] = new List<Video>(),
+                [4] = new List<Video>()
+            };
+            foreach (var video in stream)
+            {
+                if(video.Id == vid.Id) continue;
+                if (video.SameCategory(vid) && video.SameGenre(vid) && video.SameActor(vid))
+                {
+                    dict[1].Add(video);
+                }
+            }
+
+
+            return 0;
+        }
+
     }
 }
