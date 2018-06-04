@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationMicroservice", "Recommendation-Microservice\RecommendationMicroservice.csproj", "{6BD169C5-AABC-45C2-AC90-69E61DB18477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecommendationMicroserviceTests", "Recommendation-MicroserviceTests\RecommendationMicroserviceTests.csproj", "{9A40650B-6F87-474B-B306-62D5922A37BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD169C5-AABC-45C2-AC90-69E61DB18477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD169C5-AABC-45C2-AC90-69E61DB18477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD169C5-AABC-45C2-AC90-69E61DB18477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD169C5-AABC-45C2-AC90-69E61DB18477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A40650B-6F87-474B-B306-62D5922A37BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A40650B-6F87-474B-B306-62D5922A37BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A40650B-6F87-474B-B306-62D5922A37BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A40650B-6F87-474B-B306-62D5922A37BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46EE88D3-F9F8-4D97-AE57-AFAB7207FD34}
+	EndGlobalSection
+EndGlobal
